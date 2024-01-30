@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(183, 190, 168), white)
+
+}
+
+body > nav {
+    background-color: rgb(183, 190, 168);
+    font-family: American Typewriter, serif;
+    /* text-align: center; */
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+body > nav > p a:link, a:visited {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+body > nav > p a:hover, a:active {
+    color: burlywood;
+    background-color: rgb(157, 129, 129);
+    text-decoration: underline;
+}
+
+body > footer {
+    background-color: rgb(183, 190, 168);
+    font-family: American Typewriter, serif;
+    
+    display: flex;
+    justify-content: center;
+}
+
+body > footer a:link, a:visited {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+body > footer a:hover, a:active {
+    color: burlywood;
+    background-color: rgb(157, 129, 129);
+    text-decoration: underline;
+}
+
+body > section.intro {
+    padding-top: 5px;
+    background-color: transparent;
+    /* background-image: url("../images/introBackground.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* padding: 80px; */
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    z-index: 100;
+}
+
+body > section.intro > img.introPic {
+    z-index: -1;
+    position: absolute;
+    /* width: auto;
+    padding: 0; */
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    left: 0;
+}
+
+body > section.intro > h1, h2 {
+    font-family: American Typewriter, serif;
+    color: beige;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+body > section.description {
+    background-color: beige;
+    padding: 50px;
+}
+
+body > section.description a:link, a:visited {
+    color: rgb(222, 120, 48);
+    text-decoration: none;
+}
+
+body > section.description a:hover, a:active {
+    color: burlywood;
+    background-color: rgb(157, 129, 129);
+    text-decoration: underline;
+}
+
+body > section.description > p {
+    font-family: "Courier Prime", sans-serif;
+    color: rgb(147, 109, 96);
+    text-align: center;
+    font-size: 15px;
+}
+
+body > section.description > h2.hi {
+    font-family: "Newsreader";
+    color: rgb(211, 204, 73);
+    font-size: 30px;
+    margin-top: 400px;
+}
+
+body > section.description > img.nataly {
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    position: absolute;
+    border-radius: 90px;
+    /* align-items: center; */
+
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+     */
+}
+
+body > section.description > div.three-col {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+body > section.description > div.three-col > div.card {
+    box-shadow: 0 4px 8px 0 brown; 
+    width: 310px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > section.description > div.three-col > div.card > img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+body > section.description > div.three-col > div.card > h3 {
+    box-shadow: 0 2px 0 0 black;
+    font-family: "Karma";
+    color: brown;
+    font-size: 20px;
+}
+
+body > section.description > div.three-col > div.card > ul {
+    font-family: "Karma";
+    color: rgb(147, 109, 96);
+    font-size: 15px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+body > section.description > div.three-col > div.card > dl {
+    font-family: "Karma";
+    color: rgb(147, 109, 96);
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body > section.description > div.three-col > div.card > dl > dt, dd {
+    font-family: "Karma";
+    color: rgb(147, 109, 96);
+    font-size: 15px;
+}
+
+body > section.description > hr {
+    border-top: 5px dotted darkgreen;
+    width: 200px;
+}
+
+body > div.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+body > div.one-col > div.card {
+    box-shadow: 0 4px 8px 0 brown; 
+    width: 310px;
+    padding: 20px;
+    font-family: "Karma";
+    color: brown;
+}
+
+body > div.one-col > div.card > form > input[type=text],input[type=email], textarea, input[submit] {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(245, 235, 222);
+}
+
+body > h1, p {
+    font-family: American Typewriter, serif;
+    color: rgb(97, 97, 68);
+
+    text-align: center;
+}
